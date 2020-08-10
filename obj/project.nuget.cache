@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "o2Q3HrhU04yYMmCxy7Q/rpHcLCoKjD+DuERoumtc2LNhHtz5iBf6jLJA8bJokIDYyhtjixcOQn3iqQu1FpVB0A==",
+  "dgSpecHash": "upjFgBxsYo9ayAhX1C5NoDq5Btu4YsbVYRN6Izgo6BdnDVVmykhofmtqM2MxYXGn6fiqL2tmrXUX5oSxaxVbyA==",
   "success": true,
   "projectFilePath": "C:\\Users\\LeonardoMaia\\Documents\\testeef\\testeef.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\LeonardoMaia\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.6\\microsoft.entityframeworkcore.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\LeonardoMaia\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.6\\microsoft.entityframeworkcore.analyzers.3.1.6.nupkg.sha512",
     "C:\\Users\\LeonardoMaia\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\3.1.6\\microsoft.entityframeworkcore.inmemory.3.1.6.nupkg.sha512",
+    "C:\\Users\\LeonardoMaia\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\LeonardoMaia\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.6\\microsoft.extensions.caching.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\LeonardoMaia\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.6\\microsoft.extensions.caching.memory.3.1.6.nupkg.sha512",
     "C:\\Users\\LeonardoMaia\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\microsoft.extensions.configuration.3.1.6.nupkg.sha512",
@@ -21,6 +22,11 @@
     "C:\\Users\\LeonardoMaia\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\LeonardoMaia\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\microsoft.extensions.options.3.1.6.nupkg.sha512",
     "C:\\Users\\LeonardoMaia\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512",
+    "C:\\Users\\LeonardoMaia\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
+    "C:\\Users\\LeonardoMaia\\.nuget\\packages\\swashbuckle.aspnetcore\\5.5.0\\swashbuckle.aspnetcore.5.5.0.nupkg.sha512",
+    "C:\\Users\\LeonardoMaia\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.5.1\\swashbuckle.aspnetcore.swagger.5.5.1.nupkg.sha512",
+    "C:\\Users\\LeonardoMaia\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.5.0\\swashbuckle.aspnetcore.swaggergen.5.5.0.nupkg.sha512",
+    "C:\\Users\\LeonardoMaia\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.5.0\\swashbuckle.aspnetcore.swaggerui.5.5.0.nupkg.sha512",
     "C:\\Users\\LeonardoMaia\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\LeonardoMaia\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\LeonardoMaia\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"

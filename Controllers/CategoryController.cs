@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace testeef.Controllers
 {
+    [ApiController]
     [Route("v1/categories")]
     public class CategoryController : Controller
     {

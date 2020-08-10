@@ -17,7 +17,7 @@ namespace testeef.Models
 
                [Required(ErrorMessage = "Este campo é obrigatorio")]
                [Range(1, int.MaxValue, ErrorMessage = "O Preço deve ser maior do que zero")]
-               public decimal price {get;set;}
+               public decimal Price {get;set;}
 
                [Required(ErrorMessage = "Este campo é obrigatorio")]
                [Range(1, int.MaxValue, ErrorMessage = "Categorio invalida")]

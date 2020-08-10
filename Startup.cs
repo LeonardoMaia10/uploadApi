@@ -14,6 +14,10 @@ using testeef.Models;
 using testeef;
 using testeef.Data;
 using Microsoft.EntityFrameworkCore;
+using Swashbuckle.AspNetCore.Swagger;
+using System.IO;
+using Microsoft.OpenApi.Models;
+
 
 namespace testeef
 {
@@ -32,6 +36,31 @@ namespace testeef
             services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
             services.AddScoped<DataContext, DataContext>();
             services.AddControllers();
+            // Configurando o serviço de documentação do Swagger
+           services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Version = "v1",
+        Title = "ToDo API",
+        Description = "A simple example ASP.NET Core Web API",
+        TermsOfService = new Uri("https://example.com/terms"),
+        Contact = new OpenApiContact
+        {
+            Name = "Shayne Boyer",
+            Email = string.Empty,
+            Url = new Uri("https://twitter.com/spboyer"),
+        },
+        License = new OpenApiLicense
+        {
+            Name = "Use under LICX",
+            Url = new Uri("https://example.com/license"),
+        }
+    });
+});
+           
+                    
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,6 +80,15 @@ namespace testeef
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+            // Ativando middlewares para uso do Swagger
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json",
+                    "Categorias");
+                    c.RoutePrefix = string.Empty;
             });
         }
     }
